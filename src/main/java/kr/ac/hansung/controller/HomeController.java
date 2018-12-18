@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller //@Component의 하위 어노테이션
 public class HomeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) { //locale: ���� (���ѹα�)
+	public String home(Locale locale, Model model) { 
 		
 		return "home";
 	}
